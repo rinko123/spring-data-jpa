@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/spring_data_jpa?useUnicode=true&characterEncoding=utf8&useSSL=false&createDatabaseIfNotExist=true
+    password: root
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+    generate-ddl: true
