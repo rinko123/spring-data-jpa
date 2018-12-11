@@ -43,7 +43,7 @@ class EasyTest {
         val childs = childRepository.findByParentId(6476695088633353284)
         parent.parentName = "123"
         childs.forEach {
-            it.childName = "234"
+            it.childName = "2345"
         }
     }
 
