@@ -8,6 +8,7 @@ import javax.persistence.Entity
  *create by liuliang on 2018/12/7.
  */
 @Entity
+@Audited
 class Child : LongIdEntity() {
 
     var parentId:Long? = null
